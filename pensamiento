@@ -1,0 +1,88 @@
+#### dado el siguiente planteo:
+
+problema = (
+    "Tres personas —Ana, Bruno y Clara— están en una habitación. Uno de ellos rompió un jarrón.\n"
+    "Cada uno hace una afirmación:\n"
+    "- Ana dice: 'Bruno lo rompió.'\n"
+    "- Bruno dice: 'Clara lo rompió.'\n"
+    "- Clara dice: 'No fui yo.'\n\n"
+    "Sabemos que solo una de las tres afirmaciones es verdadera. Las otras dos son falsas.\n"
+    "Analizá caso por caso quién podría ser el culpable, asumiendo que cada uno, de a uno, dice la verdad.\n"
+    "Evaluá la consistencia lógica de cada hipótesis y determiná quién rompió el jarrón. "
+    "Mostrá tu razonamiento paso a paso antes de dar la respuesta final.\n"
+    "Utilizar en todo momento el español como idioma de trabajo.\n\n" #puede generar errores de traducción, pero el modelo es capaz de entender el español perfectamente
+    
+)
+
+#### la llm utilizando samplecot devuelve:
+
+[1m> Entering new SampleCoTStrategy chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are an intelligent agent that is generating one thought at a time in
+a tree of thoughts setting.
+
+PROBLEM 
+
+Tres personas —Ana, Bruno y Clara— están en una habitación. Uno de ellos rompió un jarrón.
+Cada uno hace una afirmación:
+- Ana dice: 'Bruno lo rompió.'
+- Bruno dice: 'Clara lo rompió.'
+- Clara dice: 'No fui yo.'
+
+Sabemos que solo una de las tres afirmaciones es verdadera. Las otras dos son falsas.
+Analizá caso por caso quién podría ser el culpable, asumiendo que cada uno, de a uno, dice la verdad.
+Evaluá la consistencia lógica de cada hipótesis y determiná quién rompió el jarrón. Mostrá tu razonamiento paso a paso antes de dar la respuesta final.
+Utilizar en todo momento el español como idioma de trabajo.
+
+
+
+
+
+Let's think step by step.[0m
+
+[1m> Finished chain.[0m
+🧠 Pensamiento completo del modelo:
+Okay, vamos a analizar este problema paso a paso, considerando cada posible escenario donde una persona dice la verdad y las otras dos mienten.
+
+**Escenario 1: Ana dice la verdad (Bruno lo rompió)**
+
+*   Si Ana dice la verdad, entonces Bruno rompió el jarrón.
+*   Esto significa que Bruno miente cuando dice que Clara lo rompió.
+*   También significa que Clara miente cuando dice que no fue ella. Si Clara miente al decir "No fui yo", entonces *sí* fue ella.
+
+Aquí tenemos una contradicción: Bruno rompió el jarrón (según Ana) y Clara también lo rompió (porque miente). Solo una persona rompió el jarrón, así que este escenario es imposible.
+
+**Escenario 2: Bruno dice la verdad (Clara lo rompió)**
+
+*   Si Bruno dice la verdad, entonces Clara rompió el jarrón.
+*   Esto significa que Ana miente cuando dice que Bruno lo rompió.
+*   También significa que Clara miente cuando dice que no fue ella.  Si Clara miente al decir "No fui yo", entonces *sí* fue ella.
+
+Este escenario es consistente. Si Clara rompió el jarrón, Ana miente y Clara miente.
+
+**Escenario 3: Clara dice la verdad (No fui yo)**
+
+*   Si Clara dice la verdad, entonces ella no rompió el jarrón.
+*   Esto significa que Ana miente cuando dice que Bruno lo rompió.
+*   También significa que Bruno miente cuando dice que Clara lo rompió.
+
+Si Ana miente y Bruno miente, entonces ni Bruno ni Clara rompieron el jarrón. Esto implica que Ana rompió el jarrón. Pero si Ana rompió el jarrón, entonces la afirmación de Clara, "No fui yo", es verdadera.
+
+Este escenario también es consistente. Si Ana rompió el jarrón, Ana miente y Bruno miente.
+
+**Conclusión**
+
+Tenemos dos escenarios consistentes:
+
+*   Escenario 2: Clara rompió el jarrón.
+*   Escenario 3: Ana rompió el jarrón.
+
+Sin embargo, el problema establece que *solo una* de las afirmaciones es verdadera. En el escenario 3, si Clara dice la verdad (no fui yo), entonces Ana rompió el jarrón, lo que significa que tanto Ana como Bruno mienten.
+
+En el escenario 2, si Bruno dice la verdad (Clara lo rompió), entonces Ana y Clara mienten. Esto cumple con la condición de que solo una persona dice la verdad.
+
+Por lo tanto, la única solución lógica es que Clara rompió el jarrón.
+
+**Respuesta Final:**
+
+Clara rompió el jarrón.
