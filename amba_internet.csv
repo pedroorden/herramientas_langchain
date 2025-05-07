@@ -1,0 +1,55 @@
+id,distrito,provincia,total_hogares,tiene_internet,no_tiene_internet
+06028,Almirante Brown,provincia de buenos aires,187.107,154.393,32.714
+06035,Avellaneda,provincia de buenos aires,134.851,114.813,20.038
+06091,Berazategui,provincia de buenos aires,116.419,99.976,16.443
+06098,Berisso,provincia de buenos aires,34.728,28.355,6.373
+06119,Brandsen,provincia de buenos aires,11.395,7.699,3.696
+06126,Campana,provincia de buenos aires,37.455,29.781,7.674
+06134,Cañuelas,provincia de buenos aires,23.469,17.938,5.531
+02007,Comuna 1,ciudad autonoma,106.509,90.762,15.747
+02070,Comuna 10,ciudad autonoma,73.964,66.474,7.490
+02077,Comuna 11,ciudad autonoma,87.910,80.438,7.472
+02084,Comuna 12,ciudad autonoma,108.085,100.175,7.910
+02091,Comuna 13,ciudad autonoma,127.241,119.997,7.244
+02098,Comuna 14,ciudad autonoma,127.733,120.952,6.781
+02105,Comuna 15,ciudad autonoma,90.717,83.029,7.688
+02014,Comuna 2,ciudad autonoma,83.818,78.837,4.981
+02021,Comuna 3,ciudad autonoma,92.555,80.100,12.455
+02028,Comuna 4,ciudad autonoma,91.186,75.866,15.320
+02035,Comuna 5,ciudad autonoma,93.208,84.486,8.722
+02042,Comuna 6,ciudad autonoma,95.464,88.538,6.926
+02049,Comuna 7,ciudad autonoma,90.970,80.995,9.975
+02056,Comuna 8,ciudad autonoma,70.622,56.854,13.768
+02063,Comuna 9,ciudad autonoma,66.753,58.569,8.184
+06245,Ensenada,provincia de buenos aires,22.495,18.301,4.194
+06252,Escobar,provincia de buenos aires,82.557,67.626,14.931
+06260,Esteban Echeverría,provincia de buenos aires,108.363,88.712,19.651
+06266,Exaltación de la Cruz,provincia de buenos aires,13.775,10.170,3.605
+06270,Ezeiza,provincia de buenos aires,62.802,47.744,15.058
+06274,Florencio Varela,provincia de buenos aires,146.253,112.833,33.420
+06364,General Rodríguez,provincia de buenos aires,45.922,30.330,15.592
+06371,General San Martín,provincia de buenos aires,161.480,134.602,26.878
+06408,Hurlingham,provincia de buenos aires,63.547,54.310,9.237
+06410,Ituzaingó,provincia de buenos aires,62.587,54.447,8.140
+06412,José C. Paz,provincia de buenos aires,98.119,74.968,23.151
+06427,La Matanza,provincia de buenos aires,576.586,455.201,121.385
+06441,La Plata,provincia de buenos aires,298.336,252.809,45.527
+06434,Lanús,provincia de buenos aires,167.953,144.422,23.531
+06490,Lomas de Zamora,provincia de buenos aires,234.615,191.167,43.448
+06497,Luján,provincia de buenos aires,39.254,31.139,8.115
+06515,Malvinas Argentinas,provincia de buenos aires,107.589,87.839,19.750
+06525,Marcos Paz,provincia de buenos aires,20.790,15.393,5.397
+06539,Merlo,provincia de buenos aires,182.654,143.964,38.690
+06560,Moreno,provincia de buenos aires,181.244,136.366,44.878
+06568,Morón,provincia de buenos aires,128.619,114.378,14.241
+06638,Pilar,provincia de buenos aires,126.339,100.497,25.842
+06648,Presidente Perón,provincia de buenos aires,30.598,24.068,6.530
+06658,Quilmes,provincia de buenos aires,214.681,174.527,40.154
+06749,San Fernando,provincia de buenos aires,60.344,49.468,10.876
+06756,San Isidro,provincia de buenos aires,110.559,98.217,12.342
+06760,San Miguel,provincia de buenos aires,109.322,90.874,18.448
+06778,San Vicente,provincia de buenos aires,30.825,22.041,8.784
+06805,Tigre,provincia de buenos aires,147.150,127.422,19.728
+06840,Tres de Febrero,provincia de buenos aires,136.658,117.493,19.165
+06861,Vicente López,provincia de buenos aires,114.743,104.959,9.784
+06882,Zárate,provincia de buenos aires,45.121,35.476,9.645
